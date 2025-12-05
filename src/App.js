@@ -25,9 +25,23 @@ export default function Portfolio() {
 
   const experiences = [
     {
+        company: "Willis Towers Watson (WTW)",
+        role: "Assistant Manager - Technology Consultant",
+        duration: "Feb 2025 - Present",
+        location: "Gurugram",
+        client: "Banking Sector",
+        highlights: [
+          "Led IFRS17 implementation for major banking and insurance clients, ensuring compliance with international financial reporting standards.",
+          "Configured and managed Windows Server environments, supporting seamless integration of Unify with client infrastructure.",
+          "Developing automation scripts for server configuration and infrastructure management",
+          "Provided technical consulting and client support throughout the implementation lifecycle, from requirement gathering to post-deployment optimization.",
+          "Built strong client relationships by translating regulatory needs into practical technology solutions, driving trust and long-term partnerships."
+        ]
+      },
+    {
       company: "Ernst & Young (EY)",
       role: "Senior Consultant",
-      duration: "May 2024 - Present",
+      duration: "May 2024 - Feb 2025",
       location: "Gurugram",
       client: "Adobe",
       highlights: [
@@ -176,10 +190,10 @@ export default function Portfolio() {
             Soham Ruj
           </h1>
           <p className="text-xl md:text-2xl text-cyan-400 mb-6 animate-fade-in">
-            Cloud DevOps & DevSecOps Engineer
+            Senior Cloud DevOps & DevSecOps Engineer
           </p>
           <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto animate-fade-in">
-            Senior Consultant at Ernst & Young with 5+ years expertise in Cloud Infrastructure, Site Reliability Engineering, and Security Compliance
+            Assistant Manager at Willis Towers and Watson (WTW) with 5+ years expertise in Cloud Infrastructure, Site Reliability Engineering, and Security Compliance
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8 animate-fade-in">
             <a href="https://github.com/sohamruj" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
@@ -359,7 +373,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-slate-800">
         <div className="max-w-6xl mx-auto text-center text-slate-400">
-          <p>© 2024 Soham Ruj. Built with React & Tailwind CSS</p>
+          <p>© 2025 Soham Ruj. Built with React & Tailwind CSS</p>
         </div>
       </footer>
 
