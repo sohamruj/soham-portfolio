@@ -25,9 +25,23 @@ export default function Portfolio() {
 
   const experiences = [
     {
+      company: "Willis Towers Watson (WTW)",
+      role: "Assistant Manager - Technology Consultant",
+      duration: "Feb 2025 - Present",
+      location: "Gurugram",
+      client: "Insurance Banking",
+      highlights: [
+        "Led IFRS17 implementation for major banking and insurance clients, ensuring compliance with international financial reporting standards.",
+        "Configured and managed Windows Server environments, supporting seamless integration of Unify with client infrastructure.",
+        "Developing automation scripts for server configuration and infrastructure management",
+        "Provided technical consulting and client support throughout the implementation lifecycle, from requirement gathering to post-deployment optimization.",
+        "Built strong client relationships by translating regulatory needs into practical technology solutions, driving trust and long-term partnerships."
+      ]
+    },
+    {
       company: "Ernst & Young (EY)",
       role: "Senior Consultant",
-      duration: "May 2024 - Present",
+      duration: "May 2024 - Feb 2025",
       location: "Gurugram",
       client: "Adobe",
       highlights: [
@@ -134,6 +148,16 @@ export default function Portfolio() {
       name: "Data Science",
       category: "Data & Analytics",
       icon: "🔬"
+    },
+    {
+      name: "ISO/IEC 27001",
+      category: "Tech-GRC",
+      icon: "🔒"
+    },
+    {
+      name: "ISO 42001",
+      category: "AIMS",
+      icon: "🔒"
     },
     {
       name: "Penetration Testing",
@@ -259,7 +283,7 @@ export default function Portfolio() {
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-slate-700">
               <h3 className="text-2xl font-semibold mb-4 text-cyan-400">Profile Summary</h3>
               <p className="text-slate-300 leading-relaxed mb-4">
-                Dynamic and results-driven Cloud DevOps and DevSecOps Engineer with over 5 years of expertise delivering secure and scalable solutions at Ernst & Young.
+                Dynamic and results-driven Cloud DevOps and DevSecOps Engineer with over 5+ years of expertise delivering secure and scalable solutions at Willis Towers & Watson (WTW).
               </p>
               <p className="text-slate-300 leading-relaxed mb-4">
                 Proficient in managing hybrid cloud infrastructures, integrating on-premises systems with AWS and Azure for optimized performance. Strong focus on security compliance with regulatory standards.
@@ -273,7 +297,7 @@ export default function Portfolio() {
               <div className="flex items-start gap-3 mb-6">
                 <GraduationCap className="w-6 h-6 text-blue-400 mt-1" />
                 <div>
-                  <p className="font-semibold">B.Tech in Electrical, Electronics & Communications Engineering</p>
+                  <p className="font-semibold">B.Tech in Electronics & Communications Engineering, Honours in Computer Science</p>
                   <p className="text-slate-400">Gandhi Institute For Technology (BPUT)</p>
                   <p className="text-slate-400">Bhubaneshwar - 2020</p>
                 </div>
